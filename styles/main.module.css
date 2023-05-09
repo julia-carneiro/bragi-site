@@ -1,0 +1,12 @@
+.bg{
+    @apply flex items-center justify-center h-screen mx-auto bg-fixed bg-center bg-cover bg-bragi-roxo ml-auto
+}
+
+.logoPosition{
+    @apply fixed top-0 right-0 flex items-end justify-end;
+}
+
+
+.text{
+    @apply p-5 my-10 text-white z-[2] ml-[-40rem] mt-[-1rem]
+}

@@ -22,5 +22,20 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.bg-bragi-roxo': {
+          backgroundImage: "url('../public/bg-roxo.png')",
+        },
+      }, {
+        // define a camada personalizada aqui
+        // use `components` para uma classe global personalizada
+        // ou `utilities` para uma utilidade personalizada
+        respectPrefix: false,
+        respectImportant: false,
+        layer: 'components',
+      })
+    }
+  ],
 }

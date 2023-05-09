@@ -1,10 +1,15 @@
+import style from '@/styles/main.module.css';
+import Image from 'next/image';
 import React from "react";
 
 const Main = ({heading, message})  => {
     return(
-    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg-bragi-logo">
-        <div className="p-5 y-10 text-white z-[2] ml-[-35rem] mt-[-1rem]">
-        <div  className="shadow">
+    <div className={style.bg}>
+        <div className={style.logoPosition}>
+        <Image src="/logo-grande.png" width={500} height={900} alt="logo" />
+        </div>
+        <div className={style.text}>
+        <div  className="">
             <h1 className="text-5xl font-bold mb-2">{heading}</h1>
             <h2 className="text-2xl font-bold mb-2">{message}</h2>
             <p className="font-medium">SOMOS UM PEQUENO</p>
