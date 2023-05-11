@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <div>
       <Head> 
-        <title>Create</title>
+        <title>Bragi Estúdios</title>
         <meta name='description' content='Generate'/>
-        <link rel='icon' href='/favicon.ico'/>
+        <link rel='icon' href='/logo.png'/>
       </Head>
-      <Main heading='Bragi Estúdios' message='Nós criamos experiências'/>
+      <Main/>
     </div>
   )
 }
