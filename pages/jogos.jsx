@@ -1,10 +1,12 @@
 import Main from "@/components/Main";
+import Slider from "@/components/Slider";
+import { SliderData } from "@/components/SliderData";
 import React from "react";
 
 const jogos = ()  => {
     return(
-    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg-preto text-white">
-        teste
+    <div>
+        <Slider slides={SliderData} />
     </div>
     );
 }

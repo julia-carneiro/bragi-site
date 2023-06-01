@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import { AnimatePresence } from "framer-motion"
 import Head from 'next/head'
 import Main from '@/components/Main'
 import NavBar from '@/components/NavBar'
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel='icon' href='/logo.png'/>
       </Head>
       <Main/>
+      <NavBar/>
     </div>
   )
 }

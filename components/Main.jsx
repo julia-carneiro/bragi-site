@@ -5,7 +5,7 @@ import React from "react";
 
 const Main = ()  => {
     return(
-    <div className={style.bg}>
+    <div id='main' className={style.bg}>
         {/* Logo background */}
         <div className={style.logoPosition}>
             <Image src="/logo-grande.png" width={500} height={900} alt="logo" />
